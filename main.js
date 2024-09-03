@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     const linkElement = document.querySelector('#link');
 
     try {
-        const response = await fetch('https://api.github.com/users/jesus');
+        const response = await fetch('https://api.github.com/users/thiago742');
 
         if (!response.ok) {
             throw new Error(`Erro na requisição: ${response.status} - ${response.statusText}`);
